@@ -14,4 +14,9 @@ public class PhotographerTest{
   public void hasName(){
     assertEquals("Steve", photographer.getName());
   }
+
+  @Test
+  public void hasEmptyArrayOfCameras() {
+    assertEquals(0, photographer.cameraCount());
+  }
 }
