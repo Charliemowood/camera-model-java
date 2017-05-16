@@ -17,4 +17,9 @@ public class Photographer {
   public int cameraCount() {
     return this.cameraList.size();
   }
+
+  public void add(AnalogCamera analogCamera) {
+    this.cameraList.add(analogCamera);
+  }
+
 }
